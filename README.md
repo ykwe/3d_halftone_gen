@@ -1,11 +1,12 @@
-# こんにちは✏️ halftone gen (alpha)です
+# こんにちは🌐 3D halftone gen (alpha)です
 
 ## About
-* ハーフトーンパターンのようなものをイラレでつくるスクリプトです
+* 立体ハーフトーンパターンのようなものをイラレでつくるスクリプトです
 * 個人制作のalpha版です。問題や不具合があればお知らせ下さい
+* 2D版のベーシックなタイプはこちら https://github.com/ykwe/halftone_gen/tree/main
 
 ## 使い方
-* [halftone_gen.jsx](halftone_gen.jsx) をダウンロードし、イラレのスクリプトとして開いてください
+* [3d_halftone_gen.jsx](3d_halftone_gen.jsx) をダウンロードし、イラレのスクリプトとして開いてください
 
 ## 作例
 
