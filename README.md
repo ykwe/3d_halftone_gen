@@ -3,7 +3,7 @@
 ## About
 * 立体ハーフトーンパターンのようなものをイラレでつくるスクリプトです
 * 個人制作のalpha版です。問題や不具合があればお知らせ下さい
-* 2D版のベーシックなタイプはこちら [halftone gen](https://github.com/ykwe/halftone_gen/)
+* 2D版はこちら [halftone gen](https://github.com/ykwe/halftone_gen/)
 
 ## 使い方
 * [3d_halftone_gen.jsx](3d_halftone_gen.jsx) をダウンロードし、イラレのスクリプトとして開いてください
