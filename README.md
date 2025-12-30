@@ -10,10 +10,10 @@
 
 ## 作例
 
-![144アートボード 3](https://github.com/user-attachments/assets/c1da3eb6-ad48-4be3-b53c-c775d20a1782)
-![144アートボード 3 のコピー](https://github.com/user-attachments/assets/6a407236-1ab5-4e82-a5b5-8aca89ad8679)
-![144アートボード 3 のコピー 2](https://github.com/user-attachments/assets/da41fd6e-2f8a-4555-9fa8-7796ad4a951e)
 
+<img width="550" height="916" alt="1" src="https://github.com/user-attachments/assets/c1da3eb6-ad48-4be3-b53c-c775d20a1782" />
+<img width="550" height="916" alt="1" src="https://github.com/user-attachments/assets/6a407236-1ab5-4e82-a5b5-8aca89ad8679" />
+<img width="550" height="916" alt="1" src="https://github.com/user-attachments/assets/da41fd6e-2f8a-4555-9fa8-7796ad4a951e" />
 
 ## 設定項目
 
