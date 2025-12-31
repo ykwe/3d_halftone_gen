@@ -30,7 +30,7 @@
         // =========================================================
         // 1. UI構築
         // =========================================================
-        var dialog = new Window("dialog", "3Dハーフトーン V7.6");
+        var dialog = new Window("dialog", "3Dハーフトーン V7.7");
         dialog.orientation = "column";
         dialog.alignChildren = ["fill", "top"];
         dialog.spacing = 10;
@@ -694,7 +694,7 @@
         var doc = app.activeDocument;
         var d = new Date();
         var masterGroup = doc.groupItems.add();
-        masterGroup.name = "3D_V7.6_" + d.getHours() + d.getMinutes() + d.getSeconds();
+        masterGroup.name = "3D_V7.7_" + d.getHours() + d.getMinutes() + d.getSeconds();
 
         var blackColor = new CMYKColor();
         blackColor.black = 100;
@@ -763,7 +763,13 @@
                 } else {
                     seqInfo = " (ランダム / サイズ: " + p.baseTextSize + " pt)";
                 }
-                shapeDetail = "文字: \"" + p.textString + "\"" + seqInfo;
+                
+                // [変更] 文字列の省略表示 (10文字まで)
+                var displayStr = p.textString;
+                if (displayStr.length > 10) {
+                    displayStr = displayStr.substring(0, 10) + "...";
+                }
+                shapeDetail = "文字: \"" + displayStr + "\"" + seqInfo;
             }
             logContent += "[シェイプ] " + shapeDetail + " / 間隔: " + p.pitch + " pt\r";
             
@@ -772,15 +778,15 @@
             
             var effStr = "なし";
             if (p.effectMode === "gradient") {
-                // [変更] ログ出力フォーマットを更新
+                // [変更] ログ詳細化
                 effStr = "グラデーション (角度: H" + p.effAngH + "° V" + p.effAngV + "° / 範囲: " + (p.valStart*100) + "% -> " + (p.valEnd*100) + "%)";
             } else if (p.effectMode === "lighting") {
-                // [変更] ログ出力フォーマットを更新
+                // [変更] ログ詳細化
                 effStr = "ライティング (角度: H" + p.effAngH + "° V" + p.effAngV + "° / 範囲: " + (p.valStart*100) + "% -> " + (p.valEnd*100) + "%)";
             }
             logContent += "[効果] " + effStr + "\r";
             
-            logContent += "[モデル] 3D Halftone V7.6";
+            logContent += "[モデル] 3D Halftone V7.7";
 
             logTextFrame.contents = logContent;
             logTextFrame.textRange.characterAttributes.size = 5;
