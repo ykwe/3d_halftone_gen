@@ -1,5 +1,15 @@
 /*
     3D Halftone Generator Ver 7.6
+    
+    [機能一覧]
+    - ドット個数: 縦・横・奥行きの個数を指定
+    - 出力モード: 全て出力/面のみ/フレームのみ出力、フレーム表示、面の透過
+    - シェイプ設定: 丸/四角/テキスト、サイズ、間隔など
+    - オブジェクト回転: X/Y/Z軸の角度回転
+    - カメラ: 視点距離調整
+    - 効果: グラデーション/ライティング、方向指定(水平・垂直角度)、濃度範囲設定
+    - ログ出力: 設定値をテキストとして自動生成
+    
     Created by ykwe with Gemini for Adobe Illustrator
     This is a personally developed alpha version.
     We apologize for any bugs or issues that may occur.
