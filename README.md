@@ -17,7 +17,7 @@
 
 ## 設定項目
 
-<img width="482" height="916" alt="スクリーンショット 2025-12-31 1 24 05" src="https://github.com/user-attachments/assets/d2e12190-650e-4b16-9ac1-8d16afe1ca90" />
+<img width="482" height="916" alt="3dhg設定項目" src="https://github.com/user-attachments/assets/d2e12190-650e-4b16-9ac1-8d16afe1ca90" />
 
 #### ドット個数
 * 縦、横、奥行きのドット個数を指定します
